@@ -19,3 +19,26 @@ An API can also automate this process by providing the last updated timestamp wi
  - https://jblukach.gumroad.com/l/AMZNHASH
 
 If there is another format that you would find helpful, please feel free to reach out!
+
+Example:
+
+```python
+
+import requests
+
+key = ''
+url = 'https://sha256.lukach.io/hashes'
+
+headers = {'x-api-key': key}
+
+r = requests.get(url, headers = headers)
+
+output = r.json()
+
+d = requests.get(output['link'])
+
+if d.status_code == 200:
+    with open(output['filename'], 'wb') as f:
+        f.write(d.content)
+
+```
