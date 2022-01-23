@@ -20,8 +20,6 @@ An API can also automate this process by providing the last updated timestamp wi
 
 If there is another format that you would find helpful, please feel free to reach out!
 
-Example:
-
 ```python
 
 import requests
