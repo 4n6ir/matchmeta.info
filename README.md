@@ -8,7 +8,7 @@ AMI names that start with ```amazon/amzn``` and end with ```-gp2``` will be laun
 
  - https://pypi.org/project/getmeta
 
-This enrichment option allows the analysis to take traditional hashing a step further by knowing which directories, files, and paths are standard for specific releases of the Amazon Linux distribution.
+This enrichment option allows the analyst to take traditional hashing a step further by knowing which directories, files, and paths are standard for specific releases of the Amazon Linux distribution.
 
 A status page for the MatchMeta.Info project keeps track of when hash libraries need manual updates for newly released AMIs by AWS.
 
