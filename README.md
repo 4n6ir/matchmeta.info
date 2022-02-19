@@ -25,7 +25,7 @@ If there is another format that you would find helpful, please feel free to reac
 import requests
 
 key = ''
-url = 'https://sha256.lukach.io/hashes'
+url = 'https://sha256.lukach.io/hashes' # https://sha256.lukach.io/unique
 
 headers = {'x-api-key': key}
 
